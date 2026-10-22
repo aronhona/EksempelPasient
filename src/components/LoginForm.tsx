@@ -8,10 +8,6 @@ export default function LoginForm () {
                   <TextInput/>
                   <Text>Passord</Text>
                   <TextInput />
-            
-            // Pressable  - submit
-            // Kaller på en funksjon getUser
-            
                 </View>
-    )
+    );
 }

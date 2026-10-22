@@ -1,3 +1,4 @@
+import LoginForm from '@/components/LoginForm';
 import VelkomstMelding from '@/components/VelkomstMelding';
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
 import { StyleSheet, View } from 'react-native';
@@ -10,6 +11,7 @@ export default function HomeScreen() {
   return (
     <View>
       <VelkomstMelding />
+      <LoginForm />
     </View>
   );
 }
