@@ -18,6 +18,11 @@ const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
         justifyContent: 'center',
-        fontSize: 20,
+        fontSize: 80,
+        height: 600,
     },
+    containerText: {
+        fontSize: 40,
+        fontWeight: 'bold',
+    }
 })
