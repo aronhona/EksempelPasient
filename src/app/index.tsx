@@ -1,12 +1,13 @@
+import VelkomstMelding from '@/components/VelkomstMelding';
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 
 
 export default function HomeScreen() {
   return (
     <View>
-      <Text>Hola!</Text>
+      <VelkomstMelding />
     </View>
   );
 }
